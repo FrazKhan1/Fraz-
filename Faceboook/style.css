@@ -1,0 +1,144 @@
+#bodywraper{
+	background-color:#DEE1ED;
+	width:1349px;
+	height:850px;
+	margin:0 auto;
+}
+.fb-header{
+	
+	width:1349px;
+	background-color:#3B5998;
+	height:82px;
+	margin:0 auto;
+}
+.fb-logo{
+	color:#FFFFFF;
+	position:relative;
+	left:200px;
+	top:40px;
+	font-family:helvetica, arial, sans-serif;
+	font-size:14px;
+}
+a{
+	text-decoration:none;
+	cursor:pointer;
+	color:#FFFFFF;
+}
+.fb-log-in{
+	position:relative;
+	left:700px;
+	bottom:30px;
+	font-family:helvetica, arial, sans-serif;
+}
+tr{
+	font-size:12px;
+	color:white;
+}
+.f1:hover{
+	color:#9CB4D8;
+	text-decoration:underline;
+	cursor:pointer;
+}
+.img{
+	background-repeat:no-repeat;
+	position:relative;
+	left:160px;
+	top:30px;
+}
+.f2{
+	position:relative;
+	float:right;
+	bottom:280px;
+	right:260px;
+}
+.cf1{
+	position:relative;
+	left:690px;
+	bottom:260px;
+	font-family :Helvetica, Arial, sans-serif;
+	font-size:36px;
+}
+.cf{
+	position:relative;
+	left:690px;
+	bottom:275px;
+	font-family :Helvetica, Arial, sans-serif;
+	font-size:19px;
+}
+.box1{
+	background-color:#FFFFFF;
+	border-radius:3px;
+	border:0px solid #FFFFFF;
+	height:29px;
+	width:194px;
+	padding:10px;
+}
+.box3{
+	background-color:#FFFFFF;
+	border:0px solid #FFFFFF;
+	border-radius:3px;
+	height:29px;
+	width:397px;
+	padding:10px;
+	line-height:10px;
+}
+.p1{
+	font-family :Helvetica, Arial, sans-serif;
+	font-size:20px;
+	font-weight:bold;
+	position:relative;
+	left:200px;
+	top:35px;
+}
+.b1{
+	color:black;
+	font-weight:bold;
+	font-size:18px;
+}
+.box4{
+	padding:5px;
+	background-color:#FFFFFF;
+}
+.l1{
+	position:relative;
+	left:210px;
+	bottom:40px;
+	color:#365899;
+	font-family :Helvetica, Arial, sans-serif;
+	font-size:11px;
+}
+.l1:hover{
+	text-decoration:underline;
+}
+.btn{
+	font-family :Helvetica, Arial, sans-serif;
+	font-size:18px;
+	color:black;
+}
+.radio{
+	position:relative;
+	bottom:30px;
+}
+.policy{
+	color:#777777;
+}
+.text1{
+	position:relative;
+	bottom:20px;
+}
+.hv{
+	color:#365899;
+}
+.hv:hover{
+	text-decoration:underline;
+}
+.btn3{
+	width:194px;
+	height:39px;
+	border:0px solid #5B9147;
+	background-color:#5B9147;
+	border-radius:5px;
+}
+.text3{
+	color:white;
+}
