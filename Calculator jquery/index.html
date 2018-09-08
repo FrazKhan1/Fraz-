@@ -1,0 +1,102 @@
+<DOCKTYPE! html>
+<html>
+<head>
+<title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".number").click(function(){
+                var first_val=$("input").val();
+                var val=$(this).data("val");
+                
+                $("input").val(first_val+val);
+                
+            });
+                $(".clear").click(function(){
+                $("input").val("");
+                
+            });
+                   $(".equal").click(function(){
+                    var val = $("input").val().split("");
+                    var result = " ";
+                       
+                       if(val[1] == "+"){
+                           result = parseInt(val[0]) + parseInt(val[2]);
+                       }
+                       if(val[1] == "-"){
+                           result = parseInt(val[0]) - parseInt(val[2]);
+                       }
+                       if(val[1] == "*"){
+                           result = parseInt(val[0]) * parseInt(val[2]);
+                       }
+                       if(val[1] == "/"){
+                           result = parseInt(val[0]) / parseInt(val[2]);
+                       }
+                       $("input").val(result);
+                       
+                       
+                
+            });
+        });
+    
+    </script>
+    <style>
+        table{
+            border-collapse: collapse;
+            background-color: skyblue;
+        }
+        .btn{
+            border-width: 50px;
+            background-color: aliceblue;
+        }
+        .nmb{
+            border-width: 20px;
+        }
+        input{
+            width:365px;
+            height: 50px;
+        }
+        fieldset{
+            width: 365px;
+            background-color: aliceblue;
+        }
+        
+    
+    </style>
+</head>
+<body>
+    <fieldset>
+    <table>
+        
+        <h1>Simple Calculator</h1>
+    <tr>
+        <td colspan="6"><input type="text="></td>
+    </tr>
+    <tr>
+        <td><button  class="number nmb" data-val="+"> + </button></td>
+        <td><button  class="number nmb" data-val="-"> - </button></td>
+        <td><button  class="number nmb" data-val="*"> * </button></td>
+        <td><button  class="number nmb" data-val="/"> / </button></td>
+        <td><button  class="equal nmb" >=</button></td>
+        <td><button  class="clear nmb" >c</button></td>
+    </tr>
+    <tr>
+        <td colspan="2"><button  class="number btn" data-val="1">1</button></td>
+        <td colspan="2"><button  class="number btn" data-val="2">2</button></td>
+        <td colspan="2"><button  class="number btn" data-val="3">3</button></td>
+    </tr>
+    <tr>
+        <td colspan="2"><button  class="number btn" data-val="4">4</button></td>
+        <td colspan="2"><button  class="number btn" data-val="5">5</button></td>
+        <td colspan="2"><button  class="number btn" data-val="6">6</button></td>
+    </tr>
+    <tr>
+        <td colspan="2"><button  class="number btn" data-val="7">7</button></td>
+        <td colspan="2"><button  class="number btn" data-val="8">8</button></td>
+        <td colspan="2"><button  class="number btn" data-val="9">9</button></td>
+    </tr>
+            
+</table>
+        </fieldset>
+</body>
+</html>
